@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+background-color: gray;
+    margin: 20px;
+}
+
+/* Styles for the navigation button */
+#goto-btn {
+    font-size: 20px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background: red + linear-gradient(to bottom, blue);
+    color: red;
+    cursor: pointer;
+    transition: font-size 200ms ease, transform 200ms ease;
+}
+
+#goto-btn:hover {
+    color: blue + lightblue;
+    font-size: 70px;
+    transform: translateY(-2px);
+}
